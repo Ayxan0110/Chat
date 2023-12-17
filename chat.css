@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.sides{
+    display: flex;
+}
+.left-side{
+    width: 390px;
+    height: 703px;
+    border-right: 1px solid #303030;
+    background: #121212;
+}
+.left-side-h1-up{
+    display: flex;
+}
+.logo-h1{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+.left-side-h1{
+    color: #00A3FF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 24px;
+    margin-top: 19px;
+}
+.user-search{
+    display: flex;
+    margin-top: 36px;
+    gap: 14px;
+}
+.left-side-search{
+    width: 284px;
+    height: 46px;
+    margin-left: 24px;
+
+    padding-left: 20px;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(204, 207, 208, 0.30);
+    background: rgba(255, 255, 255, 0.00);
+}
+.left-side-h1-up{
+    display: flex;
+    margin-top: 19px;
+    margin-left: 25px;
+}
+.plus-btn-div{
+
+}
+.plus-btn{
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: #00A3FF;
+    border-style: none;
+}
+.plus-btn-img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.left-side-users{
+
+}
+.messages-pinned{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 26px;
+    gap: 8px;
+}
+.messages-all{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 26px;
+    gap: 8px;
+}
+.left-side-messages-all{
+    color: #BCBCBC;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.left-side-messages-pinned{
+    color: #BCBCBC;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Ayxan-Xelilov{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 6px 20px 6px 2px;
+    border: 1px solid #313131;
+    width: 390px;
+    height: 71px;
+    background: #1E1E1E;
+}
+.other-users{
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Ayxan-Xelilov-img{
+    width: 50px;
+    height: 52px;
+    margin-left: 20px;
+    background: url(./Opera\ Anlık\ Görüntü_2023-12-04_231044_www.instagram\ 1.png), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.Ayxan-Xelilov-h1{
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+.Ayxan-Xelilov-time{
+    color: #A0A0A0;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.other-users{
+    marin
+}
+.other-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 20px 6px 2px;
+    width: 390px;
+    height: 71px;
+}
+.other-user-img{
+    width: 50px;
+    height: 52px;
+    margin-left: 20px;
+ 
+}
+.other-user-h1{
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.other-user-time{
+    color: #A0A0A0;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.right-side{
+
+}
+.right-side-nav{
+    display: flex;
+    width: 1146px;
+    height: 80px;
+    border-bottom: 1px solid #303030;
+    background: #121212;
+}
+.right-side-nav-img{
+    width: 50px;
+    height: 52px;
+    margin-top: 12px;
+    margin-left: 46px;
+    background: url(./Opera\ Anlık\ Görüntü_2023-12-04_231044_www.instagram\ 1.png), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.right-side-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.right-side-nav-h1{
+    color: #F0F0F0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.right-side-nav-p{
+    color: #00A3FF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.right-side-nav-icons{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    gap: 40px;
+    margin-left: 675px;
+    margin-top: 24px;
+}
+.right-side-chat{
+    display: flex;
+    width: 1146px;
+    height: 75px;
+    padding-left: 20px;
+    border-top: 1px solid #303030;
+    background: #121212;
+}
+.right-side-chat img{
+    width: 40px;    
+    height: 40  px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+.right-side-chat-input{
+    width: 800px;
+    height: 46px;
+    color: #fff;
+    border-radius: 11px 10px 10px 10px;
+    background: #121212;
+    margin-top: 17px ;
+    margin-left: 30px;
+    padding-left: 20px;
+    border-style: none;
+    outline: none;
+}
+.right-side-btn-send{
+    color: #fff;
+    width: 115px;
+    height: 42px;
+    border-radius: 12px;
+    background: #00A3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 17px ;
+    margin-left: 60px;
+    border-radius: 1px solid;
+    border-style: none;
+}
+.right-side-send img{
+    width: 25px;
+    height: 26px;
+}
+.main{
+    width: 1146px;
+    height: 548px;
+    background: #181818;    
+}
+.main-left-p2{
+    margin-left: 46px;
+    padding-top: 270px;
+}
+.left-side-main {
+    max-height: 520px; 
+    overflow-y: auto;
+}
+.main-left-p2{
+    display: flex;
+
+}
+.main-left-p2-img{
+    width: 45px;
+    height: 45px;
+    margin-right: 14px;
+    border-radius: 50px;
+    border: 1px solid #4E4E4E;
+    background: url(./Opera\ Anlık\ Görüntü_2023-12-04_231044_www.instagram\ 1.png), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.left-side-text-name{
+    display: flex;
+    flex-direction: column;
+}
+.main-left-p2-name{
+    display: flex;
+    gap: 16px;
+
+}
+.main-left-p2-text{
+    display: inline-flex;
+    padding: 16px 24px;
+    margin-right: 120px;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0px 14px 14px 14px;
+    border: 1px solid #323232;
+    background: #292929;
+    border-style: none;
+}
+.main-left-p2-h1{
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-left-p2-time{
+    color: #A0A0A0;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.main-right{
+    margin-left: 730px;
+    margin-top: 60px;
+}
+.main-right-p1{
+    display: flex;
+}
+.main-right-p1-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #4E4E4E;
+    background: url(./Woman.svg), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.main-right-p1-name-text{
+    display: flex;
+    flex-direction: column;
+}
+.main-right-p1-name{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+.main-right-p1-h1{
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-right-p1-time{
+    color: #A0A0A0;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main-right-p1-text{
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 14px 0px 14px 14px;
+    border: 1px solid #00A3FF;
+    background: #00A3FF;
+}
+
+
+
+
+
+
+.left-side-main::-webkit-scrollbar {
+    width: 6px;
+}
+
+.left-side-main::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.left-side-main::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
